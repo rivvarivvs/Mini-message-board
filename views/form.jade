@@ -1,0 +1,10 @@
+h1 Submit a new message!
+
+
+body
+    form(method="POST" action="/new")
+        | Name: 
+        input(type="text" id="user" name="user")
+        | Message
+        input(type="text" id="text" name="text")
+        input(type="submit")

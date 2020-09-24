@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  p Welcome to the mini message board
+  each message in messages
+    p #{message.user}: #{message.text} - written at #{message.added}
